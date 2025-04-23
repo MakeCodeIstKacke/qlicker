@@ -138,3 +138,4 @@ let mySprite = sprites.create(img`
     . c b b 3 3 b 3 3 b 3 3 b b c . 
     . . f f f f f f f f f f f f . . 
     `, SpriteKind.Player)
+mySprite.changeScale(1.5, ScaleAnchor.Middle)
